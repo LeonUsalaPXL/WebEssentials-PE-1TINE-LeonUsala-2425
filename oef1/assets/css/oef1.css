@@ -1,0 +1,119 @@
+@media screen and (min-width: 1800px) {
+    header {
+        padding: 0 300px 0 300px;
+        width: 1200px;
+    }
+
+    /*                                                                                  BODY                                                              */
+    body {
+        width: 1800px;
+        display:flex;
+        flex-flow: row wrap;
+
+    }
+
+    /*                                                                                  MAIN                                                              */
+    main {
+        box-sizing: border-box;
+        justify-content: center;
+        width: 1200px;
+        margin: 0 16.6% 0 16.6%;
+        position: relative;
+    }
+
+    /*                                                                                  IMAGES                                                            */
+    img {
+        aspect-ratio: 400/225;
+        object-fit: cover;
+        width: 400px;
+        height: 255px;
+    }
+
+    /*                                                                                  NAV                                                               */
+    nav {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        border: orange solid 5px;
+        border-radius: 5%;
+        width: 250px;
+        font-size: 1.4em;
+    }
+
+    /*                                                                                  NATUUR                                                            */
+    .natuur {
+        margin-top: 0;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-width: initial;
+        border-style: solid;
+        border-color: orange;
+        border-image: initial;
+        background: orange;
+    }
+
+    /*                                                                                  NAV IMAGES                                                        */
+    nav img {
+        height: 20px;
+        width: 20px;
+        margin-left: 10px;
+    }
+
+    /*                                                                                  FOOTER                                                            */
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 20px;
+        background-color: orange;
+        text-align: center;
+        color: white;
+    }
+
+    /*                                                                                  ARTICLES                                                          */
+    .article1 {
+        width:60%;
+        p{
+            flex-flow: row wrap;
+        }
+        img {
+            float: left;
+            width: 228px;
+            height: 398px;
+            object-fit: cover;
+            margin: 0 30px 5px 0;
+        }
+        figcaption {
+            position:relative;
+
+        }
+
+    }
+
+    .article2 {
+        width:40%;
+        float: right;
+    }
+}
+
+/*
+    naam:
+*/
+
+/*
+Hint: 
+    (1) Omzetten naar hoofdletters:
+            text-transform: uppercase;
+    (2) Schaduw in figcaption
+            text-shadow: 2px 2px 2px black;
+    (3) Eerste 3 lijnen tonen van de paragrafen
+            line-height:1em;
+	        height:3em;
+    (4) Herschaling van de figuren 
+            aspect-ratio: 400 / 225;
+        s    object-fit:cover;
+*/
+

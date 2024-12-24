@@ -1,0 +1,19 @@
+/* 
+    naam:
+*/
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+img{
+    width:180px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+
+/*
+    blauw = #4D6D8F;
+    geel =  #FEFF63;
+*/
+
+

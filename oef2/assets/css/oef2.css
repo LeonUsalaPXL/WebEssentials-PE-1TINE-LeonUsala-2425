@@ -1,10 +1,13 @@
 /* 
-    naam:
+    naam: Leon Usala
 */
-table{
-    border: 2px solid black;
+table, td, th{
     border-collapse: collapse;
+    border: 2px solid black;
+    margin:0;
+    padding:0;
 }
+
 img{
     width:180px;
     border: 2px solid grey;

@@ -12,16 +12,33 @@
         flex-flow: row wrap;
 
     }
+    /*                                                                                  H1                                                                */
+    h1{
+        font-size: 3em;
+        text-transform: uppercase;
 
+    }
+    /*                                                                                  H1                                                                */
+    h2{
+        font-size: 2em;
+        padding-left:0.5em;
+        text-transform: uppercase;
+        border-left: orange 20px solid;
+    }
     /*                                                                                  MAIN                                                              */
     main {
         box-sizing: border-box;
-        justify-content: center;
-        width: 1200px;
+        justify-content: flex-start;
+        align-content:flex-start;
+        /*width: 1200px;*/
         margin: 0 16.6% 0 16.6%;
         position: relative;
     }
-
+    /*                                                                                  P                                                                 */
+    p{
+        line-height:1em;
+        height:3em;
+    }
     /*                                                                                  IMAGES                                                            */
     figure img {
         aspect-ratio: 400/225;
@@ -69,13 +86,6 @@
         text-transform: uppercase;
         text-decoration: none;
         border: orange solid 5px;
-        /*
-        border-width: initial;
-        border-style: solid;
-        border-color: orange;
-        border-image: initial;
-
-         */
         background: orange;
         font-size: 1.4em;
     }
@@ -117,12 +127,11 @@
         text-align: center;
         color: white;
     }
-
     /*                                                                                  ARTICLES                                                          */
     .article1 {
+        float:left;
         width:60%;
-        height:600px;
-
+        height:900px;
         p{
             font-size: 18px;
             flex-flow: row wrap;
@@ -145,12 +154,120 @@
         bottom: 10px;
         right: 10px;
     }
-
+    /*                                                                                  ARTICLE 2                                                         */
     .article2 {
         width:40%;
-        float: left;
+        height:450px;
+        /*
         flex-flow: row wrap;
+         */
+        p{
+            font-size: 18px;
+            flex-flow: row wrap;
+        }
+        float:right;
+        margin: 0;
+    }
+    .figure-article-2{
+        width:100%;
+        height:255px;
+        position:relative;
+        float: right;
+        margin: 0;
+    }
+    .figcaption-article-2 {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    .img-article-2 {
+        position:absolute;
+        width: 100%;
+        aspect-ratio: 400/225;
 
+    }
+    /*                                                                                  ARTICLE 3                                                         */
+    .article3 {
+        width:40%;
+        height:450px;
+        /*
+        flex-flow: row wrap;
+         */
+        p{
+            font-size: 18px;
+            flex-flow: row wrap;
+        }
+        float:right;
+        margin: 0;
+    }
+    .figure-article-3{
+        width:100%;
+        height:255px;
+        position:relative;
+        float: right;
+        margin: 0;
+    }
+    .figcaption-article-3 {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    .img-article-3 {
+        position:absolute;
+        width: 100%;
+        aspect-ratio: 400/225;
+
+    }
+    /*                                                                                  ARTICLES 4-6                                                      */
+    .center {
+        flex-flow: row wrap;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        img {
+            aspect-ratio: 400 / 225;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        figure {
+            margin: 0 5px 0 5px;
+            width: 100%;
+            height: 63%;
+        }
+        article {
+            width: 33%;
+            p{
+                padding: 5px;
+            }
+        }
+    }
+    .figure4{
+        position: relative;
+        margin: 0 5px 0 5px;
+    }
+    .figure5{
+        position: relative;
+        margin: 0 5px 0 5px;
+    }
+    .figure6{
+        position: relative;
+        margin: 0 5px 0 5px;
+    }
+    .figcaption4 {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    .figcaption5 {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    .figcaption6 {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
     }
 }
 
